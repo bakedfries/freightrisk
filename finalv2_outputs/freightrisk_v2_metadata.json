@@ -1,0 +1,24 @@
+{
+    "project_name": "FreightRisk",
+    "version": "v2",
+    "final_selected_model": "Gradient Boosting",
+    "final_selected_threshold": 0.4,
+    "best_ensemble_model": "Stacking Ensemble",
+    "best_ensemble_threshold": 0.35,
+    "high_recall_backup_model": "Random Forest",
+    "high_recall_backup_threshold": 0.3,
+    "positive_class": "freight_infeasible",
+    "positive_class_meaning": "Order has no valid freight match or is freight-risk flagged",
+    "final_model_test_f1": 0.958258,
+    "final_model_test_precision": 0.967033,
+    "final_model_test_recall": 0.94964,
+    "final_model_test_roc_auc": 0.997753,
+    "stacking_test_f1": 0.957234,
+    "random_forest_test_recall": 0.969424,
+    "notes": [
+        "Gradient Boosting selected as final model by held-out F1 and total error count.",
+        "Stacking Ensemble selected as strongest ensemble.",
+        "Random Forest kept as high-recall backup because it produced the fewest false negatives.",
+        "Risk bands translate model probabilities into planner-friendly priority groups."
+    ]
+}

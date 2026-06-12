@@ -1,0 +1,4 @@
+model_name,role,selected_threshold,test_accuracy,test_precision,test_recall,test_f1,test_roc_auc,false_positive,false_negative,total_errors
+Gradient Boosting,Best overall F1,0.4,0.980035,0.967033,0.94964,0.958258,0.997753,18,28,46
+Stacking Ensemble,Best ensemble,0.35,0.979601,0.968692,0.946043,0.957234,0.998121,17,30,47
+Random Forest,Best recall / fewest false negatives,0.3,0.976997,0.937391,0.969424,0.953139,0.997855,36,17,53

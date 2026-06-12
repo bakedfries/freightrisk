@@ -1,0 +1,11 @@
+model_name,model_family,selected_threshold,cv_f1,test_accuracy,test_precision,test_recall,test_f1,test_roc_auc,false_positive,false_negative,true_positive,true_negative,total_errors
+Gradient Boosting,Boosting Ensemble,0.4,0.960417,0.980035,0.967033,0.94964,0.958258,0.997753,18,28,528,1730,46
+Stacking Ensemble,Ensemble,0.35,,0.979601,0.968692,0.946043,0.957234,0.998121,17,30,526,1731,47
+Random Forest,Tree Ensemble,0.3,0.957312,0.976997,0.937391,0.969424,0.953139,0.997855,36,17,539,1712,53
+Extra Trees,Tree Ensemble,0.4,0.952324,0.97092,0.940541,0.938849,0.939694,0.995216,33,34,522,1715,67
+Decision Tree,Tree,0.55,0.949141,0.970052,0.941924,0.933453,0.937669,0.984257,32,37,519,1716,69
+KNN,Distance-Based,0.35,0.937999,0.967448,0.927176,0.938849,0.932976,0.983625,41,34,522,1707,75
+SVM,Margin-Based,0.6,0.932518,0.964844,0.981744,0.870504,0.922784,0.988219,9,72,484,1739,81
+Logistic Regression,Linear,0.35,0.727237,0.87066,0.718644,0.76259,0.739965,0.836108,166,132,424,1582,298
+Stratified Random Baseline,Baseline,,,0.632812,0.241993,0.244604,0.243292,0.500449,426,420,136,1322,846
+Majority-Class Baseline,Baseline,,,0.758681,0.0,0.0,0.0,0.5,0,556,0,1748,556

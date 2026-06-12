@@ -1,0 +1,4 @@
+model_name,ensemble_type,base_models,selected_threshold,test_accuracy,test_precision,test_recall,test_f1,test_roc_auc,false_positive,false_negative,true_positive,true_negative,total_errors
+Stacking Ensemble,Stacking,Gradient Boosting + Random Forest,0.35,0.979601,0.968692,0.946043,0.957234,0.998121,17,30,526,1731,47
+Validation-Tuned Weighted Ensemble,Weighted Soft Voting,Gradient Boosting + Random Forest,0.5,0.976562,0.980843,0.920863,0.949907,0.998082,10,44,512,1738,54
+Equal Soft Voting Ensemble,Soft Voting,Gradient Boosting + Random Forest + Logistic Regression,0.3,0.973958,0.944444,0.947842,0.94614,0.994888,31,29,527,1717,60

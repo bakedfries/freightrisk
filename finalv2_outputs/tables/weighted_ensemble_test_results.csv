@@ -1,0 +1,3 @@
+model_name,split,threshold,gb_weight,rf_weight,lr_weight,accuracy,precision_infeasible,recall_infeasible,f1_infeasible,roc_auc,orders_flagged,true_negative,false_positive,false_negative,true_positive
+Validation-Tuned Weighted Ensemble,Training,0.5,1,2,0,0.9930545507162495,0.9975429975429976,0.973621103117506,0.9854368932038835,0.9998037808547745,1628,5239,4,44,1624
+Validation-Tuned Weighted Ensemble,Testing,0.5,1,2,0,0.9765625,0.9808429118773946,0.920863309352518,0.9499072356215214,0.9980820835322588,522,1738,10,44,512
